@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <include
+        android:id="@+id/some_id_if_needed"
+        layout="@layout/topbacklayour"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/some_id_if_needed" >
+
+        <RelativeLayout
+            android:id="@+id/idpnlDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <TextView
+                android:id="@+id/pppppp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="TESTE"
+                android:textSize="20dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="369dp"
+                android:layout_height="81dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="11dp"
+                android:text="TESTE"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:id="@+id/textoDetalhes"
+                tools:ignore="TextSizeCheck">
+
+            </TextView>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnAderir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idpnlDetalhes"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="36dp"
+            android:text="@string/btnAderir" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

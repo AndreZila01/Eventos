@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Casaapp</string>
+    <string name="Introducao">Bem vindo a CASA. \nUma organização que ajuda e preocupa-se com os outros...</string>
+    <string name="PedirAjuda">Ajude-nos a fazer a diferença!!!</string>
+    <string name="btnVoluntario">Quero me Voluntariar</string>
+    <string name="btnSouVoluntario">Já sou Voluntario</string>
+    <string name="btnLogin">Iniciar Sessão</string>
+    <string name="btnRegist">Registar Voluntario</string>
+    <string name="lblBemVindo">Sê Bem vindo/a </string>
+    <string name="txtHintEmailTelemovel">Telemovel/Email </string>
+    <string name="txtEmail">Email</string>
+    <string name="txtNascimento">Data de Nascimento</string>
+    <string name="txtNomeApelido">Nome e Apelido</string>
+    <string name="txtHintPassword">Password </string>
+    <string name="btnHome">Home </string>
+    <string name="btnEventos">Eventos </string>
+    <string name="btnDM">DM </string>
+    <string name="btnBack">Back </string>
+    <string name="btnAderir">Aderir </string>
+</resources>
